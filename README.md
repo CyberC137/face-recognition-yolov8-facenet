@@ -13,38 +13,7 @@ This project implements a face recognition pipeline using **YOLOv8** for face de
 - ✅ Automatic fallback to dataset image if no test image is uploaded
 - ✅ Confusion matrix visualization
 - ✅ Google Drive storage and dataset extraction
-
----
-
-## 📁 Directory Structure
-
-face_recognition_project/
-
-├── embeddings/
-
-│   ├── face_embeddings.npy
-
-│   └── labels.npy
-
-├── models/
-
-│   ├── svm_classifier.joblib
-
-│   └── label_encoder.joblib
-
-├── unzipped/
-
-│   └── Dataset/
-
-│       └── Person_A/
-
-│           ├── image1.jpg
-
-│           └── ...
-
-├── Face_Recognition_Yolo_Facenet.ipynb
-
-
+  
 
 ---
 
@@ -63,7 +32,11 @@ Click the button below to launch the notebook in Colab:
 
 ---
 
-## 📦 Dataset Format
+## 📦 Dataset
+
+This project uses the **[Face Recognition Dataset (Celebrities)](https://www.kaggle.com/datasets/ashishjangra27/face-recognition-dataset)** from Kaggle.
+
+Dataset format:
 
 Upload a ZIP file like this:
 

@@ -72,8 +72,7 @@ Install automatically in Colab:
 
 ```bash
 pip install ultralytics facenet-pytorch opencv-python scikit-learn matplotlib seaborn
-
-
+```
 
 Acknowledgments
 

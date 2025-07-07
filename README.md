@@ -4,20 +4,20 @@ This project implements a face recognition pipeline using **YOLOv8** for face de
 
 ---
 
-## 🔍 Features
+##  Features
 
-- ✅ Face detection using [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
-- ✅ Face embeddings using [FaceNet (VGGFace2)](https://github.com/timesler/facenet-pytorch)
-- ✅ Classification using Scikit-learn SVM
-- ✅ Accuracy: ~95–97% on real celebrity datasets
-- ✅ Automatic fallback to dataset image if no test image is uploaded
-- ✅ Confusion matrix visualization
-- ✅ Google Drive storage and dataset extraction
+-  Face detection using [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+-  Face embeddings using [FaceNet (VGGFace2)](https://github.com/timesler/facenet-pytorch)
+-  Classification using Scikit-learn SVM
+-  Accuracy: ~95–97% on real celebrity datasets
+-  Automatic fallback to dataset image if no test image is uploaded
+-  Confusion matrix visualization
+-  Google Drive storage and dataset extraction
   
 
 ---
 
-## 🚀 Getting Started (Google Colab)
+##  Getting Started (Google Colab)
 
 Click the button below to launch the notebook in Colab:
 
@@ -32,7 +32,7 @@ Click the button below to launch the notebook in Colab:
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 This project uses the **[Face Recognition Dataset (Celebrities)](https://www.kaggle.com/datasets/ashishjangra27/face-recognition-dataset)** from Kaggle.
 
@@ -59,14 +59,14 @@ Recommended size: At least 5 images per class.
 
 ---
 
-## 📊 Results
+##  Results
 
 - Achieved accuracy of **97.3%** with RBF kernel SVM and raw FaceNet embeddings.
 - Dataset: 5–10 celebrities with 10–30 images each.
 
 ---
 
-## 🛠 Dependencies
+##  Dependencies
 
 Install automatically in Colab:
 
@@ -75,7 +75,7 @@ pip install ultralytics facenet-pytorch opencv-python scikit-learn matplotlib se
 
 
 
-✨ Acknowledgments
+Acknowledgments
 
 Ultralytics YOLOv8
 
